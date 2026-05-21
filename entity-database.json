@@ -1,0 +1,716 @@
+{
+  "banks": {
+    "jpmorgan chase": {
+      "name": "JPMorgan Chase",
+      "founded": 1799,
+      "virtualBank": false,
+      "branches": 4700,
+      "assetsLastYear": "3.9T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "New York, USA",
+      "rating": "A+"
+    },
+    "bank of america": {
+      "name": "Bank of America",
+      "founded": 1904,
+      "virtualBank": false,
+      "branches": 3900,
+      "assetsLastYear": "3.3T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Charlotte, USA",
+      "rating": "A"
+    },
+    "hsbc": {
+      "name": "HSBC",
+      "founded": 1865,
+      "virtualBank": false,
+      "branches": 3900,
+      "assetsLastYear": "3.0T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "London, UK",
+      "rating": "A"
+    },
+    "barclays": {
+      "name": "Barclays",
+      "founded": 1690,
+      "virtualBank": false,
+      "branches": 1200,
+      "assetsLastYear": "1.8T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "London, UK",
+      "rating": "A-"
+    },
+    "deutsche bank": {
+      "name": "Deutsche Bank",
+      "founded": 1870,
+      "virtualBank": false,
+      "branches": 1400,
+      "assetsLastYear": "1.5T",
+      "offersVirtualCards": false,
+      "digitalOnboarding": true,
+      "hq": "Frankfurt, Germany",
+      "rating": "BBB+"
+    },
+    "bnp paribas": {
+      "name": "BNP Paribas",
+      "founded": 1848,
+      "virtualBank": false,
+      "branches": 6800,
+      "assetsLastYear": "2.9T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Paris, France",
+      "rating": "A+"
+    },
+    "santander": {
+      "name": "Banco Santander",
+      "founded": 1857,
+      "virtualBank": false,
+      "branches": 9900,
+      "assetsLastYear": "1.8T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Madrid, Spain",
+      "rating": "A-"
+    },
+    "itau unibanco": {
+      "name": "Itaú Unibanco",
+      "founded": 1945,
+      "virtualBank": false,
+      "branches": 4300,
+      "assetsLastYear": "570B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "São Paulo, Brazil",
+      "rating": "BB+"
+    },
+    "bradesco": {
+      "name": "Banco Bradesco",
+      "founded": 1943,
+      "virtualBank": false,
+      "branches": 3600,
+      "assetsLastYear": "390B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Osasco, Brazil",
+      "rating": "BB+"
+    },
+    "nubank": {
+      "name": "Nubank",
+      "founded": 2013,
+      "virtualBank": true,
+      "branches": 0,
+      "assetsLastYear": "28B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "São Paulo, Brazil",
+      "rating": "BB-"
+    },
+    "icbc": {
+      "name": "Industrial and Commercial Bank of China (ICBC)",
+      "founded": 1984,
+      "virtualBank": false,
+      "branches": 16000,
+      "assetsLastYear": "6.3T",
+      "offersVirtualCards": false,
+      "digitalOnboarding": true,
+      "hq": "Beijing, China",
+      "rating": "A"
+    },
+    "mitsubishi ufj": {
+      "name": "Mitsubishi UFJ Financial Group",
+      "founded": 1880,
+      "virtualBank": false,
+      "branches": 3600,
+      "assetsLastYear": "3.6T",
+      "offersVirtualCards": false,
+      "digitalOnboarding": true,
+      "hq": "Tokyo, Japan",
+      "rating": "A-"
+    },
+    "standard chartered": {
+      "name": "Standard Chartered",
+      "founded": 1853,
+      "virtualBank": false,
+      "branches": 1100,
+      "assetsLastYear": "850B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "London, UK",
+      "rating": "A-"
+    },
+    "ing bank": {
+      "name": "ING Bank",
+      "founded": 1991,
+      "virtualBank": false,
+      "branches": 900,
+      "assetsLastYear": "1.1T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Amsterdam, Netherlands",
+      "rating": "A+"
+    },
+    "revolut": {
+      "name": "Revolut",
+      "founded": 2015,
+      "virtualBank": true,
+      "branches": 0,
+      "assetsLastYear": "30B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "London, UK",
+      "rating": "B+"
+    },
+    "n26": {
+      "name": "N26",
+      "founded": 2013,
+      "virtualBank": true,
+      "branches": 0,
+      "assetsLastYear": "6B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Berlin, Germany",
+      "rating": "B"
+    },
+    "monzo": {
+      "name": "Monzo",
+      "founded": 2015,
+      "virtualBank": true,
+      "branches": 0,
+      "assetsLastYear": "9B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "London, UK",
+      "rating": "B"
+    },
+    "chime": {
+      "name": "Chime",
+      "founded": 2013,
+      "virtualBank": true,
+      "branches": 0,
+      "assetsLastYear": "14B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "San Francisco, USA",
+      "rating": "B"
+    },
+    "ally bank": {
+      "name": "Ally Bank",
+      "founded": 2009,
+      "virtualBank": true,
+      "branches": 0,
+      "assetsLastYear": "196B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Sandy, USA",
+      "rating": "B+"
+    },
+    "wells fargo": {
+      "name": "Wells Fargo",
+      "founded": 1852,
+      "virtualBank": false,
+      "branches": 4300,
+      "assetsLastYear": "1.9T",
+      "offersVirtualCards": false,
+      "digitalOnboarding": true,
+      "hq": "San Francisco, USA",
+      "rating": "A-"
+    },
+    "citibank": {
+      "name": "Citibank",
+      "founded": 1812,
+      "virtualBank": false,
+      "branches": 650,
+      "assetsLastYear": "2.4T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "New York, USA",
+      "rating": "A"
+    },
+    "credit suisse": {
+      "name": "Credit Suisse",
+      "founded": 1856,
+      "virtualBank": false,
+      "branches": 740,
+      "assetsLastYear": "580B",
+      "offersVirtualCards": false,
+      "digitalOnboarding": false,
+      "hq": "Zurich, Switzerland",
+      "rating": "BBB"
+    },
+    "ubs": {
+      "name": "UBS",
+      "founded": 1862,
+      "virtualBank": false,
+      "branches": 850,
+      "assetsLastYear": "1.7T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Zurich, Switzerland",
+      "rating": "A+"
+    },
+    "bbva": {
+      "name": "BBVA",
+      "founded": 1857,
+      "virtualBank": false,
+      "branches": 7000,
+      "assetsLastYear": "850B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Bilbao, Spain",
+      "rating": "A-"
+    },
+    "societe generale": {
+      "name": "Société Générale",
+      "founded": 1864,
+      "virtualBank": false,
+      "branches": 3700,
+      "assetsLastYear": "1.7T",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Paris, France",
+      "rating": "A"
+    },
+    "absa": {
+      "name": "Absa Group",
+      "founded": 1991,
+      "virtualBank": false,
+      "branches": 1200,
+      "assetsLastYear": "105B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Johannesburg, South Africa",
+      "rating": "BB+"
+    },
+    "axis bank": {
+      "name": "Axis Bank",
+      "founded": 1993,
+      "virtualBank": false,
+      "branches": 4900,
+      "assetsLastYear": "210B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Mumbai, India",
+      "rating": "BBB-"
+    },
+    "hdfc bank": {
+      "name": "HDFC Bank",
+      "founded": 1994,
+      "virtualBank": false,
+      "branches": 7800,
+      "assetsLastYear": "370B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Mumbai, India",
+      "rating": "BBB-"
+    },
+    "mercado pago": {
+      "name": "Mercado Pago",
+      "founded": 2003,
+      "virtualBank": true,
+      "branches": 0,
+      "assetsLastYear": "18B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Buenos Aires, Argentina",
+      "rating": "B-"
+    },
+    "kakaobank": {
+      "name": "KakaoBank",
+      "founded": 2017,
+      "virtualBank": true,
+      "branches": 0,
+      "assetsLastYear": "35B",
+      "offersVirtualCards": true,
+      "digitalOnboarding": true,
+      "hq": "Seongnam, South Korea",
+      "rating": "BBB+"
+    }
+  },
+  "addresses": {
+    "eiffel tower": {
+      "address": "Champ de Mars, 5 Av. Anatole France, Paris, France",
+      "type": "tourist_attraction",
+      "label": "Tourist Attraction",
+      "icon": "🗼",
+      "description": "Iconic wrought-iron lattice tower and global landmark",
+      "details": {
+        "height_meters": 330,
+        "year_built": 1889,
+        "visitors_per_year": "7M",
+        "floors": 3
+      }
+    },
+    "burj khalifa": {
+      "address": "1 Sheikh Mohammed bin Rashid Blvd, Dubai, UAE",
+      "type": "skyscraper",
+      "label": "Skyscraper / Mixed-Use",
+      "icon": "🏙️",
+      "description": "World's tallest building with offices, residences, and hotel",
+      "details": {
+        "floors": 163,
+        "height_meters": 828,
+        "year_built": 2010,
+        "use": "Mixed: office, residential, hotel"
+      }
+    },
+    "tokyo disneyland": {
+      "address": "1-1 Maihama, Urayasu, Chiba, Japan",
+      "type": "theme_park",
+      "label": "Theme Park",
+      "icon": "🎡",
+      "description": "Major theme park operated by Oriental Land Company",
+      "details": {
+        "opened": 1983,
+        "annual_visitors": "17M",
+        "area_hectares": 46
+      }
+    },
+    "johns hopkins hospital": {
+      "address": "1800 Orleans St, Baltimore, USA",
+      "type": "hospital",
+      "label": "Hospital",
+      "icon": "🏥",
+      "description": "Johns Hopkins Hospital — world-renowned academic medical center",
+      "details": {
+        "beds": 1162,
+        "founded": 1889,
+        "staff": 6000,
+        "specialties": "Oncology, Neurology, Cardiology"
+      }
+    },
+    "la sagrada familia": {
+      "address": "Carrer de Mallorca, 401, Barcelona, Spain",
+      "type": "church",
+      "label": "Church / Cathedral",
+      "icon": "⛪",
+      "description": "Gaudí's famous basilica, under construction since 1882",
+      "details": {
+        "started": 1882,
+        "expected_completion": 2026,
+        "height_meters": 172,
+        "visitors_per_year": "4.5M"
+      }
+    },
+    "amazon headquarters": {
+      "address": "410 Terry Ave N, Seattle, USA",
+      "type": "corporate_campus",
+      "label": "Corporate Campus",
+      "icon": "🏢",
+      "description": "Amazon.com global headquarters — Day 1 building",
+      "details": {
+        "employees_on_site": 55000,
+        "buildings": 40,
+        "year": 2010
+      }
+    },
+    "oxford university": {
+      "address": "Wellington Square, Oxford, UK",
+      "type": "university",
+      "label": "University",
+      "icon": "🎓",
+      "description": "University of Oxford — oldest English-speaking university",
+      "details": {
+        "founded": 1096,
+        "students": 24000,
+        "colleges": 39,
+        "endowment": "$8.5B"
+      }
+    },
+    "harrods": {
+      "address": "87-135 Brompton Rd, London, UK",
+      "type": "store",
+      "label": "Department Store",
+      "icon": "🛍️",
+      "description": "Harrods — iconic luxury department store",
+      "details": {
+        "founded": 1849,
+        "floors": 7,
+        "area_sqm": 90000,
+        "departments": 330
+      }
+    },
+    "dubai mall": {
+      "address": "Financial Centre Rd, Downtown Dubai, UAE",
+      "type": "shopping_mall",
+      "label": "Shopping Mall",
+      "icon": "🛒",
+      "description": "Dubai Mall — one of the world's largest shopping centres",
+      "details": {
+        "stores": 1200,
+        "opened": 2008,
+        "area_sqm": 502000,
+        "annual_visitors": "80M"
+      }
+    },
+    "favela do rocinha": {
+      "address": "Rocinha, Rio de Janeiro, Brazil",
+      "type": "residential_neighborhood",
+      "label": "Residential Neighborhood",
+      "icon": "🏘️",
+      "description": "Rocinha — largest favela in Brazil, dense urban community",
+      "details": {
+        "population": 70000,
+        "area_hectares": 86,
+        "established": 1930
+      }
+    },
+    "marina bay sands": {
+      "address": "10 Bayfront Ave, Singapore",
+      "type": "hotel",
+      "label": "Hotel / Resort",
+      "icon": "🏨",
+      "description": "Marina Bay Sands — iconic integrated resort with infinity pool",
+      "details": {
+        "rooms": 2561,
+        "stars": 5,
+        "opened": 2010,
+        "amenities": "Casino, Skypark, Convention Centre, Theatres"
+      }
+    },
+    "schiphol airport": {
+      "address": "Evert van de Beekstraat 202, Amsterdam, Netherlands",
+      "type": "airport",
+      "label": "International Airport",
+      "icon": "✈️",
+      "description": "Amsterdam Airport Schiphol — major European hub",
+      "details": {
+        "terminals": 1,
+        "runways": 6,
+        "passengers_yearly": "71M",
+        "opened": 1916
+      }
+    },
+    "tokyo fish market": {
+      "address": "6 Chome-6-4 Toyosu, Koto City, Tokyo, Japan",
+      "type": "market",
+      "label": "Wholesale Market",
+      "icon": "🐟",
+      "description": "Toyosu Market — world's largest wholesale fish market",
+      "details": {
+        "opened": 2018,
+        "daily_transactions": "1700T_yen",
+        "vendors": 500
+      }
+    },
+    "el alto freight terminal": {
+      "address": "Av. Juan Pablo II, El Alto, Bolivia",
+      "type": "freight_forwarder",
+      "label": "Freight / Logistics Terminal",
+      "icon": "🚢",
+      "description": "Major freight forwarding and customs clearance terminal",
+      "details": {
+        "founded": 2001,
+        "employees": 280,
+        "services": "Air, Road, Customs Brokerage",
+        "warehousing_sqm": 12000
+      }
+    },
+    "shinjuku station": {
+      "address": "Shinjuku, Tokyo, Japan",
+      "type": "transit_hub",
+      "label": "Train Station / Transit Hub",
+      "icon": "🚉",
+      "description": "Shinjuku Station — world's busiest railway station",
+      "details": {
+        "daily_passengers": "3.5M",
+        "platforms": 50,
+        "opened": 1885,
+        "exits": 200
+      }
+    },
+    "villa 31": {
+      "address": "Villa 31, Retiro, Buenos Aires, Argentina",
+      "type": "apartment_building",
+      "label": "Informal Settlement / Housing Complex",
+      "icon": "🏢",
+      "description": "Villa 31 — large urban informal housing complex near city centre",
+      "details": {
+        "population": 40000,
+        "blocks": 18,
+        "established": 1932
+      }
+    },
+    "escola estadual sao paulo": {
+      "address": "Rua da Escola 200, São Paulo, Brazil",
+      "type": "school",
+      "label": "Public School",
+      "icon": "🏫",
+      "description": "State public school serving primary and secondary education",
+      "details": {
+        "students": 620,
+        "founded": 1968,
+        "grades": "1st–12th",
+        "staff": 45
+      }
+    },
+    "cape town waterfront parking": {
+      "address": "V&A Waterfront, Cape Town, South Africa",
+      "type": "parking_lot",
+      "label": "Parking Garage",
+      "icon": "🅿️",
+      "description": "Multi-storey parking facility at V&A Waterfront complex",
+      "details": {
+        "spaces": 4000,
+        "floors": 6,
+        "covered": true,
+        "ev_charging": true
+      }
+    },
+    "narayana health": {
+      "address": "258/A, Bommasandra Industrial Area, Bangalore, India",
+      "type": "hospital",
+      "label": "Hospital",
+      "icon": "🏥",
+      "description": "Narayana Health City — multi-speciality hospital campus",
+      "details": {
+        "beds": 2000,
+        "founded": 2000,
+        "staff": 7000,
+        "specialties": "Cardiac, Oncology, Orthopaedics"
+      }
+    },
+    "les halles paris": {
+      "address": "101 Porte Berger, Paris, France",
+      "type": "shopping_mall",
+      "label": "Shopping Mall",
+      "icon": "🛒",
+      "description": "Forum des Halles — underground shopping centre in central Paris",
+      "details": {
+        "stores": 180,
+        "floors": 4,
+        "opened": 1979,
+        "renovated": 2016
+      }
+    },
+    "kim il sung university": {
+      "address": "Ryongnam-dong, Daesong District, Pyongyang, North Korea",
+      "type": "university",
+      "label": "University",
+      "icon": "🎓",
+      "description": "Kim Il-sung University — leading higher education institution",
+      "details": {
+        "founded": 1946,
+        "students": 16000,
+        "faculties": 16
+      }
+    },
+    "restaurant el celler de can roca": {
+      "address": "Can Sunyer 48, Girona, Spain",
+      "type": "restaurant",
+      "label": "Restaurant",
+      "icon": "🍽️",
+      "description": "El Celler de Can Roca — three Michelin star restaurant",
+      "details": {
+        "michelin_stars": 3,
+        "capacity": 55,
+        "cuisine": "Contemporary Catalan",
+        "opened": 1986
+      }
+    },
+    "singtel corporate office": {
+      "address": "31 Exeter Road, Comcentre, Singapore",
+      "type": "corporate_campus",
+      "label": "Corporate Office",
+      "icon": "🏢",
+      "description": "Singtel headquarters — leading Asian telecom group",
+      "details": {
+        "employees": 23000,
+        "founded": 1879,
+        "floors": 30
+      }
+    },
+    "casa cor buenos aires": {
+      "address": "Av. del Libertador 1400, Buenos Aires, Argentina",
+      "type": "house",
+      "label": "Luxury Residence",
+      "icon": "🏠",
+      "description": "Exclusive private residential property in Palermo district",
+      "details": {
+        "bedrooms": 6,
+        "floors": 3,
+        "area_sqm": 850,
+        "parking": "4-car underground"
+      }
+    },
+    "port of rotterdam": {
+      "address": "Wilhelminakade 909, Rotterdam, Netherlands",
+      "type": "freight_forwarder",
+      "label": "Port / Freight Terminal",
+      "icon": "🚢",
+      "description": "Port of Rotterdam — Europe's largest seaport",
+      "details": {
+        "annual_cargo_mt": 470,
+        "area_sqkm": 105,
+        "founded": 1872,
+        "employees": 180000
+      }
+    },
+    "lycee louis le grand": {
+      "address": "123 Rue Saint-Jacques, Paris, France",
+      "type": "school",
+      "label": "Secondary School (Lycée)",
+      "icon": "🏫",
+      "description": "Lycée Louis-le-Grand — elite French secondary school",
+      "details": {
+        "students": 2400,
+        "founded": 1563,
+        "notable_alumni": "Voltaire, Molière, Victor Hugo"
+      }
+    },
+    "four seasons george v": {
+      "address": "31 Avenue George V, Paris, France",
+      "type": "hotel",
+      "label": "Hotel",
+      "icon": "🏨",
+      "description": "Four Seasons Hotel George V — palace hotel near Champs-Élysées",
+      "details": {
+        "rooms": 244,
+        "stars": 5,
+        "opened": 1928,
+        "michelin_stars_restaurant": 3
+      }
+    },
+    "estadio azteca": {
+      "address": "Calz. de Tlalpan 3465, Ciudad de México, Mexico",
+      "type": "stadium",
+      "label": "Sports Stadium",
+      "icon": "🏟️",
+      "description": "Estadio Azteca — largest stadium in Latin America",
+      "details": {
+        "capacity": 87000,
+        "opened": 1966,
+        "home_team": "Club América & Mexico National Team"
+      }
+    },
+    "kfc nairobi westgate": {
+      "address": "Westgate Shopping Mall, Nairobi, Kenya",
+      "type": "restaurant",
+      "label": "Fast Food Restaurant",
+      "icon": "🍽️",
+      "description": "KFC branch inside Westgate Shopping Mall",
+      "details": {
+        "capacity": 120,
+        "cuisine": "Fast Food",
+        "drive_through": false,
+        "opened": 2011
+      }
+    },
+    "bandra kurla complex": {
+      "address": "Bandra Kurla Complex, Mumbai, India",
+      "type": "corporate_campus",
+      "label": "Business District / Corporate Hub",
+      "icon": "🏢",
+      "description": "BKC — Mumbai's premier business and financial district",
+      "details": {
+        "area_hectares": 370,
+        "established": 1977,
+        "major_tenants": "SEBI, Reliance, HDFC, Citibank"
+      }
+    }
+  }
+}
